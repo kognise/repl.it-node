@@ -1,6 +1,6 @@
 {
   "name": "repl.it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upload and deploy your projects to REPL.it.",
   "main": "index.js",
   "preferGlobal": true,
