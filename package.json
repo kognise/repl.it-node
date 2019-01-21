@@ -1,7 +1,10 @@
 {
   "name": "repl.it",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Upload and deploy your projects to REPL.it.",
+  "scripts": {
+    "test": "exit 0"
+  },
   "main": "index.js",
   "preferGlobal": true,
   "repository": "https://github.com/arch-lord/repl.it-node",
