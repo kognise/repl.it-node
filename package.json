@@ -1,0 +1,10 @@
+{
+  "name": "repl.it",
+  "version": "1.0.0",
+  "description": "Upload and deploy your projects to REPL.it.",
+  "main": "index.js",
+  "repository": "https://github.com/arch-lord/repl.it-node",
+  "author": "Felix Mattick",
+  "license": "MIT",
+  "private": false
+}
