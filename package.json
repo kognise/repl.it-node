@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "Upload and deploy your projects to REPL.it.",
   "main": "index.js",
+  "preferGlobal": true,
   "repository": "https://github.com/arch-lord/repl.it-node",
+  "bin": "index.js",
   "author": "Felix Mattick",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ora": "^3.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
 }
