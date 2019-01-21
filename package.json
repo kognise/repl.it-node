@@ -5,7 +5,9 @@
   "main": "index.js",
   "preferGlobal": true,
   "repository": "https://github.com/arch-lord/repl.it-node",
-  "bin": "index.js",
+  "bin": {
+    "repl": "index.js"
+  },
   "author": "Felix Mattick",
   "license": "MIT",
   "private": false,
