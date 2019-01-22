@@ -2,7 +2,7 @@
 
 *Easily upload and deploy your projects to REPL.it.*
 
-![NPM Badge](https://img.shields.io/npm/v/@archmaster/repl.it.svg?colorB=red&style=flat-square)
+[![NPM Badge](https://img.shields.io/npm/v/@archmaster/repl.it.svg?colorB=red&style=flat-square)](https://npmjs.com/@archmaster/repl.it)
 
 ## Usage 
 
