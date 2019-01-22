@@ -15,10 +15,18 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@archmaster/sockette": "^2.1.0",
     "chalk": "^2.4.2",
     "ora": "^3.0.0",
     "promise-fs": "^2.0.1",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.5"
-  }
+    "request-promise-native": "^1.0.5",
+    "strip-ansi": "^5.0.0"
+  },
+  "keywords": [
+    "repl.it",
+    "repl",
+    "upload",
+    "deploy"
+  ]
 }
