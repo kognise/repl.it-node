@@ -8,6 +8,7 @@
   "main": "index.js",
   "preferGlobal": true,
   "repository": "https://github.com/arch-lord/repl.it-node",
+  "homepage": "arch-lord.github.io/repl.it-node",
   "bin": {
     "repl": "index.js"
   },
