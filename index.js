@@ -80,20 +80,21 @@ const toWebREPL = (url) => {
   return id
 }
 
-const upload = (rootPath,) => {
+const upload = (rootPath) => {
   return fs.readdir(rootPath).then((paths) => {
     return Promise.all(paths.map((path) => {
+      path = pathLib.join(rootPath, path)
       if (!fs.existsSync(path) || ignored.includes(pathLib.basename(path))) {
         return Promise.resolve()
       }
       return fs.lstat(path).then((stats) => {
         if (stats.isDirectory()) {
-          return upload(pathLib.join(rootPath, path))
+          return upload(path)
         } else {
           spinner.text = 'Getting write handler'
           let writeURI = null
           return request({
-            uri: `https://repl.it/data/repls/signed_urls/${id}/${path}`,
+            uri: `https://repl.it/data/repls/signed_urls/${id}/${encodeURIComponent(path)}`,
             jar
           }).then((body) => {
             spinner.text = 'Uploading'
