@@ -54,8 +54,6 @@ request({
     console.log(chalk.yellow('Your project doesn\'t have an index.js file, please rename your main file to enable running'))
   }
   id = tokenRegex.exec(body)[0]
-  spinner.clear()
-  console.log(chalk.blue(id, createdREPL.href))
   return upload('.',)
 }).then(() => {
   spinner.succeed()
