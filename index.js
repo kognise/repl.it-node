@@ -58,12 +58,11 @@ request({
 }).then(() => {
   spinner.succeed()
   if (indexExists) {
-    return run()
+    return run().then(() => spinner.succeed())
   } else {
     return Promise.resolve()
   }
 }).then(() => {
-  spinner.succeed()
   console.log(chalk.green('Project URL:', createdREPL.href))
   if (webREPL) {
     console.log(chalk.green('Web URL:', toWebREPL(createdREPL.href)))
