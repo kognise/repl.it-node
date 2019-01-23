@@ -18,7 +18,7 @@ This will upload your application to REPL.it and run it. Thanks to [@mat1](https
 
 - Normal REPLs
 
-  These are your normal, everyday, REPLs. They print out some text, and exit. All the output will be logged.
+  These are your normal, everyday REPLs. They print out some text, and exit. All the output will be logged.
 
 - Stuck REPLs
 
